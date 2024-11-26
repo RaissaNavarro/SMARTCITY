@@ -1,0 +1,6 @@
+-- database: c:\Users\sn1021328\Documents\integrador\back\db.sqlite3
+
+SELECT * FROM app_smart_temperaturadata;
+
+UPDATE app_smart_temperaturadata
+SET sensor_id = 4
