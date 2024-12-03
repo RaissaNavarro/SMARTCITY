@@ -45,11 +45,11 @@ const Login = () => {
     <body className="body-in">
       
     <div className="container">
-      <div className="left-section">
-        <h1>ENTRE E ACESSE AS INFORMAÇÕES</h1>
-        <p>fhroigirgiigfyuraeifvgbsiu firgfeugjbre
-          begroguerge
+      <div className="left-section-in">
+        <h1>BEM-VINDO À SMART CITY</h1>
+        <p>Faça login para acessar informações exclusivas sobre os sensores da sua cidade inteligente. Gerencie dados em tempo real, acompanhe métricas e colabore para criar um ambiente mais sustentável e eficiente.
         </p>
+        
       </div>
       <div className="right-section">
       <form className="form" onSubmit={handleSubmit}>

@@ -23,20 +23,23 @@
   color: white;
   padding: 40px;
   display: flex;
+  padding-bottom: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .left-section h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 19px;
+  margin-bottom: 39px;
 }
 
 .left-section p {
-  text-align: center;
+  text-align: justify;
   margin-bottom: 20px;
+  line-height: 25px;
 }
+
 
 .right-section {
   flex: 1;
@@ -66,6 +69,7 @@
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  outline: 0;
 }
 
 .right-section .submit-button {

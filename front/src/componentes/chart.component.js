@@ -13,7 +13,7 @@ const ChartComponent = () => {
 
           name: "Sensor Temperatura",
 
-          data: [44, 55, 57, 56, 61, 58, 63, 60, 66],
+          data: [44, 55, 57, 56, 61, 58, 63, 60, 66, 62, 61, 57],
 
         },
 
@@ -21,7 +21,7 @@ const ChartComponent = () => {
 
           name: "Sensor Contador",
 
-          data: [76, 85, 101, 98, 87, 105, 91, 114, 94],
+          data: [76, 85, 101, 98, 87, 105, 91, 114, 94, 90, 87, 110],
 
         },
 
@@ -29,7 +29,7 @@ const ChartComponent = () => {
 
           name: "Sensor Umidade",
 
-          data: [35, 41, 36, 26, 45, 48, 52, 53, 41],
+          data: [35, 41, 36, 26, 45, 48, 52, 53, 41, 45, 50, 35],
 
         },
 
@@ -37,7 +37,7 @@ const ChartComponent = () => {
 
             name: "Sensor Luminosidade",
 
-            data: [31, 45, 33, 28, 41, 51, 49, 58, 43],
+            data: [31, 45, 33, 28, 41, 51, 49, 58, 43, 60, 54, 32],
 
           },
 
@@ -85,23 +85,29 @@ const ChartComponent = () => {
 
         categories: [
 
-          "Feb",
+          "Jan",
+
+          "Fev",
 
           "Mar",
 
-          "Apr",
+          "Abril",
 
-          "May",
+          "Mai",
 
           "Jun",
 
           "Jul",
 
-          "Aug",
+          "Ago",
 
-          "Sep",
+          "Set",
 
-          "Oct",
+          "Out",
+
+          "Nov",
+
+          "Dez"
 
         ],
 
@@ -154,9 +160,9 @@ const ChartComponent = () => {
 
       style={{
 
-        width: "200%",  
+        width: "300%",  
 
-        height: "500px", 
+        height: "410px", 
 
         margin: "0 auto",
 

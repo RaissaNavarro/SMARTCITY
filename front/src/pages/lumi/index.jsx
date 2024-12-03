@@ -24,7 +24,7 @@ const Luminosidade = () => {
   return (
     <div>
       <div className="title">
-        <h1>Registros do luminosidade</h1>
+        <h1>Registros do Luminosidade</h1>
       </div>
       {error && <p className="error">{error}</p>}
       <div className="table-container">

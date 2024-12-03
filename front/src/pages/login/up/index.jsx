@@ -44,9 +44,8 @@ const Signup = () => {
     <body className="body-up">
       <div className="container">
         <div className="left-section">
-          <h1>Welcome to MDM</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <button className="info-button">Know More</button>
+          <h1>CRIE SUA CONTA NA SMART CITY</h1>
+          <p>Ao se cadastrar, você terá acesso exclusivo a dados e funcionalidades que transformam sua experiência em uma cidade inteligente. Personalize sua navegação, monitore os sensores e participe ativamente na construção de um ambiente mais eficiente e sustentável.</p>
         </div>
         <div className="right-section">
           <h2>Cadastro</h2>
